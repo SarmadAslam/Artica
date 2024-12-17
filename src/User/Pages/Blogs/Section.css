@@ -1,0 +1,26 @@
+/* Custom styling for the breadcrumbs container */
+.breadcrumb-container {
+    margin-top: 50px; /* Add space from the top */
+}
+
+.breadcrumb {
+    color: #333;  /* Dark text color for visibility */
+    padding-top: 100px;  /* Adjust padding for vertical spacing */
+}
+
+.breadcrumb-item a {
+    color: #007bff !important;  /* Blue color for links */
+}
+
+.breadcrumb-item.active {
+    color: #333 !important;  /* Dark color for active breadcrumb */
+}
+
+.breadcrumb-item {
+    margin-right: 10px; /* Space between breadcrumb items */
+}
+
+/* Optional: Adjust styling for breadcrumb list */
+.breadcrumb li {
+    display: inline-block;
+}
